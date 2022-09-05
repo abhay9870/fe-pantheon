@@ -33,11 +33,21 @@
         .bold-text {
           font-weight: bold;
         }
+        @media screen and (max-width: (map-get($breakpoints, md) - 1)) {
+          font-size: 35px;
+          line-height: 30px;
+          .light-text {
+            font-size: 38px;
+          }
+        }
       }
       .btn-text {
         @include main-btn;
         a {
           @include link-style;
+          &:hover {
+            color: #7474e2;
+          }
         }
       }
     }

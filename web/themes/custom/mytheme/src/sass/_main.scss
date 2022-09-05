@@ -1,15 +1,14 @@
 @import "variable.scss";
 
 /* Start Bitcoin Simple info Block One*/
+
 .bitcoin-section-cover {
   background: url("../images/about.jpeg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  // background-position: 40% 40%;
-  // background-repeat: no-repeat;
   .right-side {
-    padding: 5rem 3rem;
+    padding: 6rem 3rem;
   }
 }
 /* End Bitcoin Simple info Section One*/
