@@ -1,0 +1,23 @@
+uuid: 4c7bdb82-d121-4de4-b9e9-aa05d9c3fd28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.news_events
+  module:
+    - text
+id: node.news_events.body
+field_name: body
+entity_type: node
+bundle: news_events
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

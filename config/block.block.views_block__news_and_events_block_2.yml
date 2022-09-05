@@ -1,0 +1,24 @@
+uuid: 1f413f02-f669-42b2-8e31-08d9a9d05d26
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_and_events
+  module:
+    - views
+  theme:
+    - mytheme
+id: views_block__news_and_events_block_2
+theme: mytheme
+region: footer_first
+weight: 0
+provider: null
+plugin: 'views_block:news_and_events-block_2'
+settings:
+  id: 'views_block:news_and_events-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

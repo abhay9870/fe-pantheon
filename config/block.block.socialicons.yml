@@ -1,0 +1,25 @@
+uuid: 4057a76e-c29d-4b90-ab4e-9aa5af2dc13b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f4f744a7-af6e-4c70-9f85-765ed5093ed2'
+  module:
+    - block_content
+  theme:
+    - mytheme
+id: socialicons
+theme: mytheme
+region: header_left
+weight: 0
+provider: null
+plugin: 'block_content:f4f744a7-af6e-4c70-9f85-765ed5093ed2'
+settings:
+  id: 'block_content:f4f744a7-af6e-4c70-9f85-765ed5093ed2'
+  label: 'Social Icons'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

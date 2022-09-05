@@ -1,0 +1,24 @@
+uuid: ff1d55b3-9f80-496f-9105-cb8f5a09408a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.logo_slider
+  module:
+    - views
+  theme:
+    - mytheme
+id: views_block__logo_slider_block_1
+theme: mytheme
+region: footer_logo
+weight: 0
+provider: null
+plugin: 'views_block:logo_slider-block_1'
+settings:
+  id: 'views_block:logo_slider-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

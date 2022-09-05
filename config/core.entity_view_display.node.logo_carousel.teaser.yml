@@ -1,0 +1,22 @@
+uuid: a9a3fe6c-54a9-488a-b294-910b25cb3eb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.logo_carousel.field_logo_image
+    - node.type.logo_carousel
+  module:
+    - user
+id: node.logo_carousel.teaser
+targetEntityType: node
+bundle: logo_carousel
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_logo_image: true

@@ -1,0 +1,25 @@
+uuid: a01e6a33-29c3-4839-acee-d8b79ed87150
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.newsletter
+  module:
+    - webform
+  theme:
+    - mytheme
+id: webform_3
+theme: mytheme
+region: footer_third
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Newsletter
+  label_display: visible
+  provider: webform
+  webform_id: newsletter
+  default_data: ''
+  redirect: false
+visibility: {  }

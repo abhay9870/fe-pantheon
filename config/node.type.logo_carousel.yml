@@ -1,0 +1,17 @@
+uuid: e6759252-6e49-4856-a9fd-5d0c4ae8ee2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Logo Grid'
+type: logo_carousel
+description: 'Logo Carousel for Add and Manage footer logo Auto Slider'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

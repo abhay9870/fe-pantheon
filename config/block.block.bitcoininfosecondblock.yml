@@ -1,0 +1,25 @@
+uuid: 474c602b-4218-4602-8021-043bcbce5b74
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a24e47ff-3da2-4b4a-9af0-86abbb5ce2c7'
+  module:
+    - block_content
+  theme:
+    - mytheme
+id: bitcoininfosecondblock
+theme: mytheme
+region: bitcoin_info_second
+weight: 0
+provider: null
+plugin: 'block_content:a24e47ff-3da2-4b4a-9af0-86abbb5ce2c7'
+settings:
+  id: 'block_content:a24e47ff-3da2-4b4a-9af0-86abbb5ce2c7'
+  label: 'Bitcoin info second Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

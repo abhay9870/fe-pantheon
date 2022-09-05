@@ -1,0 +1,22 @@
+uuid: 2a44179f-adcf-4423-a059-830ab1459efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.logo_carousel
+id: node.logo_carousel.promote
+field_name: promote
+entity_type: node
+bundle: logo_carousel
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

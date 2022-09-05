@@ -1,0 +1,23 @@
+uuid: 49ecf06d-f3a4-4f0c-9cfa-355c13242d39
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - mytheme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: mytheme_search_form_wide
+theme: mytheme
+region: header_left
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

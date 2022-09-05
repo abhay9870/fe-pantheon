@@ -1,0 +1,25 @@
+uuid: cbee7592-1786-4ad8-8a9e-1abf9893e433
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7213cc26-fb68-428e-ae21-2fb200da78f9'
+  module:
+    - block_content
+  theme:
+    - mytheme
+id: headerlogo
+theme: mytheme
+region: header_middle
+weight: 0
+provider: null
+plugin: 'block_content:7213cc26-fb68-428e-ae21-2fb200da78f9'
+settings:
+  id: 'block_content:7213cc26-fb68-428e-ae21-2fb200da78f9'
+  label: 'Header Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,15 @@
+uuid: 9906aa4c-4a95-4fdf-833c-e1e57904a132
+langcode: en
+status: true
+dependencies: {  }
+name: testimonial_image
+label: 'testimonial image'
+effects:
+  6f0414b5-4e5a-4a27-b14d-98d30584a1f6:
+    uuid: 6f0414b5-4e5a-4a27-b14d-98d30584a1f6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      anchor: center-center

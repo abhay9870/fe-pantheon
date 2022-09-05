@@ -1,0 +1,17 @@
+uuid: eeec3799-7fc3-47d4-94c1-29257bea5938
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Testimonial Carousel'
+type: testimonial_carousel
+description: 'Testimonial Carousel for Profile section'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

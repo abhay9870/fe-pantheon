@@ -1,0 +1,30 @@
+uuid: c9abd5c7-3e71-4896-bfe3-a3ad1939d913
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.logo_carousel.field_logo_image
+    - node.type.logo_carousel
+  module:
+    - entity_reference_revisions
+    - user
+id: node.logo_carousel.default
+targetEntityType: node
+bundle: logo_carousel
+mode: default
+content:
+  field_logo_image:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: 0386bf35-ba65-4295-b521-663726dd99f7
+langcode: en
+status: true
+dependencies: {  }
+id: logo_carousel
+label: 'Logo Carousel'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

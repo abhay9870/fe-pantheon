@@ -1,0 +1,19 @@
+uuid: cb204162-3b2c-4ba1-8217-6c4ecceb54d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_last_name
+    - node.type.testimonial_carousel
+id: node.testimonial_carousel.field_last_name
+field_name: field_last_name
+entity_type: node
+bundle: testimonial_carousel
+label: 'Last Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

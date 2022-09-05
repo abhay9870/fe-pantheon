@@ -1,0 +1,38 @@
+uuid: d3d0d9be-7da6-499f-b71d-69e894bfb71a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.testimonial_carousel.body
+    - field.field.node.testimonial_carousel.field_first_name
+    - field.field.node.testimonial_carousel.field_last_name
+    - field.field.node.testimonial_carousel.field_message_icon
+    - field.field.node.testimonial_carousel.field_testimonial_image
+    - node.type.testimonial_carousel
+  module:
+    - text
+    - user
+id: node.testimonial_carousel.teaser
+targetEntityType: node
+bundle: testimonial_carousel
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_first_name: true
+  field_last_name: true
+  field_message_icon: true
+  field_testimonial_image: true

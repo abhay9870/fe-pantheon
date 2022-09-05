@@ -1,0 +1,26 @@
+uuid: b1b8ae82-b2ed-4e25-a324-3d89e21e4d1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo_carousel.field_logo_
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.logo_carousel
+  module:
+    - image
+id: paragraph.logo_carousel.default
+targetEntityType: paragraph
+bundle: logo_carousel
+mode: default
+content:
+  field_logo_:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

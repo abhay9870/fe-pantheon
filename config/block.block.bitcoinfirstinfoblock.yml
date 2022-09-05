@@ -1,0 +1,25 @@
+uuid: 2fb7d0d4-8c7c-4c3a-b4aa-27cdfabea365
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:966eb688-040a-4f7f-8768-03ada4e798cc'
+  module:
+    - block_content
+  theme:
+    - mytheme
+id: bitcoinfirstinfoblock
+theme: mytheme
+region: bitcoin_info
+weight: 0
+provider: null
+plugin: 'block_content:966eb688-040a-4f7f-8768-03ada4e798cc'
+settings:
+  id: 'block_content:966eb688-040a-4f7f-8768-03ada4e798cc'
+  label: 'Bitcoin First info Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

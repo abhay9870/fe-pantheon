@@ -1,0 +1,17 @@
+uuid: 79a1ccb4-3102-46d6-8645-95a19d5c35dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'News & Events'
+type: news_events
+description: 'Add and Manage News & Events Section'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

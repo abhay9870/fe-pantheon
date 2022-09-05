@@ -1,0 +1,25 @@
+uuid: 4560b947-eb7c-4371-85a6-c19246eab7be
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.currency_calcualtor
+  module:
+    - webform
+  theme:
+    - mytheme
+id: webform
+theme: mytheme
+region: webform_currency
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Currency Webform'
+  label_display: '0'
+  provider: webform
+  webform_id: currency_calcualtor
+  default_data: ''
+  redirect: false
+visibility: {  }

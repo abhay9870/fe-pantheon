@@ -1,0 +1,17 @@
+uuid: 7b066498-69c2-4aee-9965-e558a52a0965
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Services
+type: services
+description: 'View/ Edit/ Delete Our Services'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

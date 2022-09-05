@@ -1,0 +1,19 @@
+uuid: 5bdc9255-fdda-4470-841b-cfbe25057a4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_first_name
+    - node.type.testimonial_carousel
+id: node.testimonial_carousel.field_first_name
+field_name: field_first_name
+entity_type: node
+bundle: testimonial_carousel
+label: 'First Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

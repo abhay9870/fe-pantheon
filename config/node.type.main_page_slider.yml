@@ -1,0 +1,17 @@
+uuid: 4bcc69cd-30ea-417d-b6fa-c244c1a08267
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Main Page Slider'
+type: main_page_slider
+description: 'Home Page Slider for Banner'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

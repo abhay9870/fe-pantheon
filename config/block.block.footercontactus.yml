@@ -1,0 +1,25 @@
+uuid: 65e5f8f8-dd87-4026-8800-3bfdd1d71442
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:87831ff8-4c6c-4280-93de-271a70ef071d'
+  module:
+    - block_content
+  theme:
+    - mytheme
+id: footercontactus
+theme: mytheme
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:87831ff8-4c6c-4280-93de-271a70ef071d'
+settings:
+  id: 'block_content:87831ff8-4c6c-4280-93de-271a70ef071d'
+  label: 'Footer Contact Us'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
