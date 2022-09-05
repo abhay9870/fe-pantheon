@@ -57,6 +57,7 @@
       jQuery(logocarousel).owlCarousel({
         loop: true,
         center: true,
+        dots: false,
         margin: 30,
         items: 7,
         autoplay: true,

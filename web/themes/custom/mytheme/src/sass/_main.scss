@@ -7,6 +7,9 @@
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
+    background-position: right center;
+  }
   .right-side {
     padding: 6rem 3rem;
   }
@@ -20,6 +23,11 @@
 }
 .second-info-block {
   text-align: $text-center;
+  .bt-info-block {
+    @media screen and (max-width: (map-get($breakpoints, md) - 1)) {
+      padding-bottom: 30px;
+    }
+  }
   .bt-icon {
     display: inline-flex;
     position: relative;
@@ -105,6 +113,11 @@
     font-weight: 600;
     padding: 15px 0;
     margin-bottom: 5%;
+  }
+  @media screen and (max-width: (map-get($breakpoints, md) - 1)) {
+    #block-views-block-news-and-events-block-1 h2 {
+      margin-bottom: 12%;
+    }
   }
   .view-news-and-events .view-content {
     .news-events-section {
@@ -210,15 +223,24 @@
       font-weight: 500;
       border-radius: 20px;
       padding-left: 20px;
-      @media screen and (max-width: (map-get($breakpoints, md) - 1)) {
+
+      @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
         width: 52%;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .webform-actions input {
+        padding-bottom: 15px;
+      }
+      .button {
+        width: 50%;
       }
     }
     .webform-flex select {
       font-weight: 600;
       border-radius: 20px;
       padding-left: 20px;
-      @media screen and (max-width: (map-get($breakpoints, md) - 1)) {
+      @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
         width: 52%;
       }
     }
@@ -283,5 +305,8 @@
     .col-2 .service-blog-section {
       float: right;
     }
+  }
+  @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
+    background: none;
   }
 }
