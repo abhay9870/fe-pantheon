@@ -1,0 +1,5 @@
+<?php
+
+function mytheme_preprocess_node__training_assignment(&$variables) {
+    $variables['display_mode'] = $variables['node']->field_image_position->value;
+}

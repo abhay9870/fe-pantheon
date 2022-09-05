@@ -1,0 +1,119 @@
+@import "variable.scss";
+
+/* Start Header Section */
+header {
+  .main-header {
+    padding: 15px 0px;
+    border-bottom: 1px solid lightgray;
+
+    .header-section {
+      @include d-flex;
+    }
+    .header-left {
+      @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
+        display: none;
+      }
+    }
+    .header-middle {
+      margin-top: -12px;
+    }
+    .header-right {
+      @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
+        display: none;
+      }
+      display: flex;
+      form {
+        display: flex;
+      }
+      .js-form-type-search input[type="search"] {
+        padding: 10px 32px;
+        width: 100%;
+        background-color: #f5f5f5;
+        border: 0px;
+        border-radius: 33px;
+        font-size: 13px;
+      }
+      input[type="search"] {
+        box-sizing: content-box;
+      }
+      .form-actions input[type="submit"] {
+        background-size: 15px;
+        font-family: "FontAwesome";
+        background-position: 100%;
+        background-color: #f5f5f5;
+        border: 0px;
+        border-radius: 33px;
+        padding: 21px 13px;
+        font-size: 13px;
+        margin-left: 10px;
+        transform: rotate(90deg);
+        color: #c2405c;
+      }
+    }
+    .button.search-form__submit {
+      width: 25px;
+    }
+  }
+}
+/* End Header Section */
+/* Start Social Icon Section */
+ul.social-media-icons {
+  @include d-flex;
+
+  li {
+    a {
+      margin-right: 10px;
+      text-decoration: none;
+    }
+    a.fa-facebook-f {
+      @include icon;
+      padding: 10px 13px;
+      color: #507cbd;
+      &:hover {
+        background-color: #507cbe;
+        color: $hovercolor;
+      }
+    }
+
+    a.fa-twitter {
+      @include icon;
+      color: #2bb3f0;
+      &:hover {
+        background-color: #00abef;
+        color: $hovercolor;
+      }
+    }
+
+    a.fa-google {
+      @include icon;
+      color: #d73825;
+      &:hover {
+        background-color: #d73825;
+        color: $hovercolor;
+      }
+    }
+
+    a.fa-linkedin-in {
+      @include icon;
+      color: #668fc7;
+      &:hover {
+        background-color: #668fc7;
+        color: $hovercolor;
+      }
+    }
+
+    a.fa-youtube {
+      @include icon;
+      color: #d23523;
+      &:hover {
+        background-color: #d23523;
+        color: $hovercolor;
+      }
+    }
+
+    span {
+      display: none;
+    }
+  }
+}
+/* End Social Icon Section */

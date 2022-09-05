@@ -1,0 +1,288 @@
+@import "variable.scss";
+
+/* Start Bitcoin Simple info Block One*/
+.bitcoin-section-cover {
+  background: url("../images/about.jpeg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-position: 40% 40%;
+  // background-repeat: no-repeat;
+  .right-side {
+    padding: 5rem 3rem;
+  }
+}
+/* End Bitcoin Simple info Section One*/
+
+/* Start Bitcoin Simple info Block two*/
+.bitcoin-section-second {
+  background-color: #c3cfdaed;
+  padding: 80px 0px;
+}
+.second-info-block {
+  text-align: $text-center;
+  .bt-icon {
+    display: inline-flex;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: $color-heading;
+    border: 2px dashed grey;
+    border-radius: 50%;
+
+    i {
+      @include position-center;
+    }
+  }
+  .bt-text {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .bt-block-desc {
+    color: $color-body;
+  }
+}
+/* End Bitcoin Simple info Block two*/
+
+/* Start Testimonial Carousel Profile Section*/
+.testimonial-carousel-section {
+  padding: 40px 0;
+  text-align: $text-center;
+}
+.testimonial-main-section {
+  text-align: $text-center;
+  .tt-image {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 15px 0px;
+    img {
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+    }
+    i {
+      position: absolute;
+      right: 2%;
+      bottom: 8%;
+      transform: translate(8%, 2%);
+      background-color: #fab915;
+      padding: 10px;
+      border-radius: 50%;
+      font-size: 20px;
+      color: white;
+    }
+  }
+  .tt-first-name {
+    color: #c5004eeb;
+    text-transform: uppercase;
+  }
+  .tt-last-name {
+    font-size: $heading-font;
+    font-weight: $font-bold;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+  }
+  .tt-desc {
+    color: $color-body;
+  }
+}
+/* End Testimonial Carousel Profile Section*/
+
+/* Start News and Events Blogs section */
+
+.blogs-section {
+  padding: 50px 100px;
+  .blog-heading {
+    text-align: center;
+    color: #be3a53;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  #block-views-block-news-and-events-block-1 h2 {
+    text-align: center;
+    font-weight: 600;
+    padding: 15px 0;
+    margin-bottom: 5%;
+  }
+  .view-news-and-events .view-content {
+    .news-events-section {
+      .card-header {
+        position: relative;
+        padding: 0;
+        background: transparent;
+        border: none;
+      }
+      .card-body {
+        padding: 50px;
+        text-align: justify;
+        .card-title {
+          font-size: 20px;
+          text-align: center;
+          margin-bottom: 20px;
+          font-weight: 600;
+          a {
+            color: black;
+          }
+        }
+        p {
+          color: #8b8b8b;
+          font-size: 14px;
+          display: -webkit-box;
+          height: 90px;
+          line-height: 30px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+      .bottem-text {
+        display: flex;
+        border-top: 1px solid #e5e5e5;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: $text-uppercase;
+        text-align: center;
+        & > div {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          flex-grow: 1;
+          flex-direction: column;
+          min-height: 80px;
+          border-right: 1px solid #e5e5e5;
+          span a {
+            color: black;
+          }
+          .bg-text {
+            @include position-center;
+            font-size: 48px;
+            font-weight: 900;
+            opacity: 0.1;
+          }
+        }
+      }
+      .fontawesome-icons {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+      }
+    }
+    .owl-stage-outer .owl-stage {
+      .owl-item:nth-child(3n-1) i {
+        color: #fcf3f4;
+        display: inline-block;
+        background: #e98191;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      .owl-item:nth-child(3n-2) i {
+        color: #fcf3f4;
+        display: inline-block;
+        background: #be3a53;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      .owl-item:nth-child(3n-3) i {
+        color: #fcf3f4;
+        display: inline-block;
+        background: #fab915;
+        border-radius: 50%;
+        padding: 15px;
+      }
+    }
+  }
+}
+
+/* Start News and Events Blogs section */
+
+/* Start Currency Webform Section */
+
+.currency-main-section {
+  background: url("../images/calculator.jpeg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  .region-webform-currency #webform-submission-currency-calcualtor-add-form {
+    .webform-flex input {
+      font-size: 19px;
+      font-weight: 500;
+      border-radius: 20px;
+      padding-left: 20px;
+      @media screen and (max-width: (map-get($breakpoints, md) - 1)) {
+        width: 52%;
+      }
+    }
+    .webform-flex select {
+      font-weight: 600;
+      border-radius: 20px;
+      padding-left: 20px;
+      @media screen and (max-width: (map-get($breakpoints, md) - 1)) {
+        width: 52%;
+      }
+    }
+  }
+}
+
+/* End Currency Webform Section */
+
+/* Start Contact Webform Section */
+
+.contact-form-section {
+  background: url("../images/contact.jpeg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 82px 0;
+  text-align: center;
+  .region-contact-form .webform-submission-contact-us-form {
+    input {
+      text-align: center;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 16px;
+      margin: 0;
+    }
+    textarea {
+      text-align: center;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+  }
+}
+
+/* End Contact Webform Section */
+
+/* Start Services Section */
+
+.services-main-section {
+  background: url("../images/advantages.jpeg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 82px 0;
+  .views-row {
+    border-bottom: none !important;
+    .service-blog-section {
+      max-width: 50%;
+      text-align: center;
+    }
+    &:nth-child(odd) {
+      .col-1 {
+        .service-blog-section {
+          margin-left: 65px;
+        }
+      }
+      .col-2 {
+        .service-blog-section {
+          margin-right: 65px;
+        }
+      }
+    }
+    .col-2 .service-blog-section {
+      float: right;
+    }
+  }
+}

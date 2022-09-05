@@ -1,0 +1,43 @@
+{#
+/**
+ * @file
+ * Theme override to display a single component.
+ *
+ * Footer area template
+ */
+#}
+<footer>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="footer-main-logo">
+            <a href="http://localhost:8081/d9abhay/web/">
+              <img class="img-fluid" alt="logo-footer" data-entity-type="file" data-entity-uuid="8924464d-c903-4462-b9ad-7a5ea2c9e487" src="/sites/default/files/inline-images/logo-footer.png" />
+            </a>
+          </div>
+        </div>
+        {% if page.footer_first %}
+          <div class="col-lg-4 col-md-6 order-md-2 order-lg-1 order-sm-2 col-sm-12">
+            <div class="footer-left">{{ page.footer_first }}</div>
+          </div>
+        {% endif %}
+        {% if page.footer_second %}
+          <div class="col-lg-4 order-md-1 order-lg-2 order-sm-1 col-sm-12">
+            <div class="footer-middle">{{ page.footer_second }}</div>
+          </div>
+        {% endif %}
+        {% if page.footer_third %}
+          <div class="col-lg-4 col-md-6 order-md-3 order-lg-3 order-sm-3 col-sm-12">
+            <div class="footer-right">{{ page.footer_third }}</div>
+          </div>
+        {% endif %}
+    </div>
+  </div>
+  
+</footer>
+<div class="footer-bottom">
+  {% if page.footer_bottom %}
+    <div class="text-center copyright">{{ page.footer_bottom }}</div>
+  {% endif %}
+</div>
+  

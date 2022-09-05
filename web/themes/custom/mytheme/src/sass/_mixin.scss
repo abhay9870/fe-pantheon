@@ -1,0 +1,37 @@
+@mixin d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin main-btn {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: $color-heading;
+  background-image: none;
+  color: $color-white;
+  font-size: 18px;
+  font-weight: $font-bold;
+  text-align: $text-center;
+  border-radius: 50px;
+  cursor: pointer;
+}
+@mixin link-style {
+  color: $color-white;
+  font-size: 18px;
+  font-weight: $font-bold;
+  text-decoration: none;
+  text-align: $text-center;
+}
+@mixin position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin icon {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 10px 10px;
+}

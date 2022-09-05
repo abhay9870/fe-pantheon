@@ -1,0 +1,108 @@
+{% include '@mytheme/include/header.html.twig' %}
+<div class="page-wrapper">
+<section>
+  <div class="slider-section">
+    {% if page.slider %}
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">{{ page.slider }}</div>
+        </div>
+      </div>
+    {% endif%}
+  </div>
+</section>
+<section>
+  {% if page.bitcoin_info %}
+    <div class="bitcoin-section-cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">{{ page.bitcoin_info }}</div>
+        </div>
+      </div>
+    </div>
+  {% endif%}
+</section>
+<section>
+  {% if page.bitcoin_info_second %}
+    <div class="bitcoin-section-second">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">{{ page.bitcoin_info_second }}</div>
+        </div>
+      </div>
+    </div>
+  {% endif%} 
+</section>
+<section>
+  {% if page.testimonial_carousel %}
+    <div class="testimonial-carousel-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">{{ page.testimonial_carousel }}</div>
+        </div>
+      </div>
+    </div>
+  {% endif%}
+</section>
+<section>
+  {% if page.webform_currency %}
+    <div class="currency-main-section">
+      <div class="container">
+        <div class="row">
+          <div class="right-side col-md-6">{{ page.webform_currency }}</div>
+          <div class="left-side col-md-6"></div>
+        </div>
+      </div>
+    </div>
+  {% endif%}
+</section>
+<section>
+  {% if page.services_blog %}
+    <div class="services-main-section">
+      <div class="container">
+        <div class="row">
+          <div class="services-blog">{{ page.services_blog }}</div>
+        </div>
+      </div>
+    </div>
+  {% endif%}
+</section>
+<section>
+  {% if page.blogs %}
+    <div class="blogs-section">
+      
+      <div class="container">
+        <div class="row">
+          <div class="blog-heading">our blogs</div>
+          <div class="col-md-12">{{ page.blogs }}</div>
+        </div>
+      </div>
+    </div>
+  {% endif%}
+</section>
+<section>
+  {% if page.contact_form %}
+    <div class="contact-form-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">{{ page.contact_form }}</div>
+        </div>
+      </div>
+    </div>
+  {% endif%}
+</section>
+<section>
+  {% if page.footer_logo %}
+    <div class="footer-logo-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">{{ page.footer_logo }}</div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</section>
+</div>  
+{% include '@mytheme/include/footer.html.twig' %}
+
+  

@@ -1,0 +1,12 @@
+mytheme.other:
+  label: 'Portrait'
+  mediaQuery: 'all and (max-width: 991px)'
+  weight: 0
+  multipliers:
+    - 1x
+mytheme.Desktop:
+  label: 'Landscape'
+  mediaQuery: 'all and (min-width: 992px)'
+  weight: 1
+  multipliers:
+    - 1x

@@ -1,0 +1,22 @@
+{
+  "name": "mytheme",
+  "version": "1.0.0",
+  "description": "my custom theme package",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhay",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.54.4",
+    "slick-carousel": "^1.8.1"
+  }
+}

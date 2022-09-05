@@ -1,0 +1,45 @@
+@import "variable.scss";
+
+.slider-section {
+  position: relative;
+  text-align: center;
+  .container-fluid {
+    padding: 0 !important;
+    .owl-carousel .owl-dots {
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      transform: translate(50%, 0%);
+      display: flex;
+      flex-direction: column;
+      button {
+        margin: 5px 0px;
+      }
+    }
+  }
+
+  .main-slider {
+    position: relative;
+    .slider-details {
+      @include position-center;
+      .slider-title {
+        color: $color-white;
+        font-size: 57px;
+        line-height: 48px;
+        .light-text {
+          font-weight: 200;
+          font-size: 64px;
+        }
+        .bold-text {
+          font-weight: bold;
+        }
+      }
+      .btn-text {
+        @include main-btn;
+        a {
+          @include link-style;
+        }
+      }
+    }
+  }
+}
