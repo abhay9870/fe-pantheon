@@ -24,7 +24,7 @@
       /* Start News & Events Section */
       var blogs = ".blogs-section .view-news-and-events .view-content ";
       jQuery(blogs).owlCarousel({
-        loop: true,
+        loop: false,
         nav: true,
         navText: [
           "<div class='owl-prev'>prev</div>",

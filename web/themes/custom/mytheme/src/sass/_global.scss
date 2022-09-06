@@ -119,23 +119,28 @@ input.form-submit:hover {
   right: 0;
   left: 0;
   text-align: center;
+  &::before {
+    content: "";
+    width: 2px;
+    height: 11px;
+    position: absolute;
+    background-color: #808080;
+    top: 9px;
+    left: calc(50% - 2px);
+  }
   button div {
     position: static;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #808080;
+    color: #575252;
     width: auto;
     padding: 5px 30px;
   }
-  button.owl-prev div {
-    border-right: 2px solid black;
-    line-height: 5px;
+  button.owl-prev.disabled div,
+  button.owl-next.disabled div {
     pointer-events: none;
     opacity: 0.5;
     cursor: default;
-  }
-  button.owl-next div {
-    color: black;
   }
 }
