@@ -2,6 +2,9 @@
   "use strict";
   Drupal.behaviors.Slider = {
     attach() {
+      /* add placeholder in serach box */
+      jQuery("#edit-keys").attr("placeholder", "KEYWORD");
+
       /* Start Home Page Banner Section */
       var banner = ".view-carousel-slider .view-content ";
       jQuery(banner).owlCarousel({
