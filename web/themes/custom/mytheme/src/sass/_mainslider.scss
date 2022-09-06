@@ -12,6 +12,14 @@
       transform: translate(50%, 0%);
       display: flex;
       flex-direction: column;
+      @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
+        top: 40%;
+        transform: translate(40%, 0%);
+      }
+      @media screen and (max-width: (map-get($breakpoints, xs) - 1)) {
+        top: 35%;
+        transform: translate(35%, 0%);
+      }
       button {
         margin: 5px 0px;
       }
@@ -40,11 +48,32 @@
             font-size: 38px;
           }
         }
+        @media screen and (max-width: (map-get($breakpoints, xs) - 1)) {
+          font-size: 25px;
+          line-height: 20px;
+          .light-text {
+            font-size: 27px;
+          }
+        }
       }
       .btn-text {
         @include main-btn;
+        @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
+          padding: 10px 25px;
+        }
+        @media screen and (max-width: (map-get($breakpoints, xs) - 1)) {
+          padding: 8px 20px;
+        }
         a {
           @include link-style;
+          @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
+            font-size: 16px;
+            font-weight: 600;
+          }
+          @media screen and (max-width: (map-get($breakpoints, xs) - 1)) {
+            font-size: 15px;
+            font-weight: 500;
+          }
           &:hover {
             color: #7474e2;
           }
