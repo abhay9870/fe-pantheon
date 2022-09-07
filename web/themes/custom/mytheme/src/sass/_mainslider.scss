@@ -3,26 +3,23 @@
 .slider-section {
   position: relative;
   text-align: center;
-  .container-fluid {
-    padding: 0 !important;
-    .owl-carousel .owl-dots {
-      position: absolute;
-      top: 50%;
-      left: 0%;
-      transform: translate(50%, 0%);
-      display: flex;
-      flex-direction: column;
-      @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
-        top: 40%;
-        transform: translate(40%, 0%);
-      }
-      @media screen and (max-width: (map-get($breakpoints, xs) - 1)) {
-        top: 35%;
-        transform: translate(35%, 0%);
-      }
-      button {
-        margin: 5px 0px;
-      }
+  .owl-carousel .owl-dots {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(50%, 0%);
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {
+      top: 40%;
+      transform: translate(40%, 0%);
+    }
+    @media screen and (max-width: (map-get($breakpoints, xs) - 1)) {
+      top: 35%;
+      transform: translate(35%, 0%);
+    }
+    button {
+      margin: 5px 0px;
     }
   }
 
