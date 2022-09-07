@@ -42,6 +42,14 @@
             items: 1,
             nav: true,
           },
+          320: {
+            items: 1,
+            nav: true,
+          },
+          480: {
+            item: 1,
+            nav: true,
+          },
           768: {
             items: 2,
             nav: true,
